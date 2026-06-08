@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Two Goats Brewing | Burdett, NY – South East Seneca</title>
+  <meta name="description" content="Two Goats Brewing in Burdett, NY — a solar-powered brewpub in a 19th century barn on Seneca Lake. Known for craft beer, live music Thu–Sun, epic lake views, and the legendary beef-on-weck sandwich." />
+  <meta name="keywords" content="Two Goats Brewing, Burdett NY brewery, Seneca Lake craft beer, Finger Lakes brewery, beef on weck, solar brewery, live music, South East Seneca, Watkins Glen brewery" />
+  <meta property="og:title" content="Two Goats Brewing | Burdett, NY" />
+  <meta property="og:description" content="Solar-powered brewpub in a 19th century barn on Seneca Lake. Craft beer, live music Thu–Sun, epic views, and one legendary sandwich." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/southeastseneca/Two-Goats-Listing/main/Hero.jpeg" />
+  <meta property="og:type" content="business.business" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Brewery",
+    "name": "Two Goats Brewing",
+    "description": "A solar-powered brewpub in a renovated 19th century barn overlooking Seneca Lake in Burdett, NY. Known for craft beer, live music, epic views, and the legendary beef-on-weck sandwich.",
+    "url": "https://twogoatsbrewing.com",
+    "telephone": "+1-607-546-2337",
+    "address": {"@type":"PostalAddress","streetAddress":"5027 State Route 414","addressLocality":"Burdett","addressRegion":"NY","postalCode":"14818","addressCountry":"US"},
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"12:00","closes":"20:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"12:00","closes":"22:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday"],"opens":"12:00","closes":"20:00"}
+    ],
+    "servesCuisine":["Craft Beer","Beef-on-Weck","American"],
+    "priceRange":"$$",
+    "image":"https://raw.githubusercontent.com/southeastseneca/Two-Goats-Listing/main/Hero.jpeg",
+    "sameAs":["https://www.facebook.com/twogoatsbrewing/","https://www.instagram.com/twogoatsbrewing/"]
+  }
+  </script>
+  <style>
+    :root {
+      --navy:#323d41;--amber:#eeaf70;--slate:#4e6d77;--mauve:#b37565;
+      --white:#ffffff;--cream:#f7f4f0;--ink:#1e2729;--muted:#6b7c80;
+      --border:#dde4e6;--font-head:'Oswald',sans-serif;--font-body:'Epilogue',sans-serif;--max-width:1100px;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:var(--font-body);background:var(--cream);color:var(--ink);line-height:1.7;font-weight:400;}
+    .ses-icon{display:inline-flex;align-items:center;justify-content:center;background:var(--amber);border-radius:50%;flex-shrink:0;}
+    .ses-icon svg{display:block;}
+    .ses-icon-sm{width:28px;height:28px;} .ses-icon-sm svg{width:15px;height:15px;}
+    .ses-icon-md{width:38px;height:38px;} .ses-icon-md svg{width:20px;height:20px;}
+    .hero{position:relative;height:560px;background:var(--navy) center/cover no-repeat;background-image:url('Hero.jpeg');display:flex;align-items:flex-end;}
+    .hero::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(50,61,65,0.9) 0%,rgba(50,61,65,0.2) 55%,transparent 100%);}
+    .hero-content{position:relative;z-index:1;max-width:var(--max-width);margin:0 auto;padding:0 2rem 2.75rem;width:100%;display:flex;align-items:flex-end;gap:1.5rem;}
+    .hero-logo{width:88px;height:88px;object-fit:contain;background:rgba(255,255,255,0.1);border-radius:6px;padding:8px;flex-shrink:0;border:1px solid rgba(255,255,255,0.2);}
+    .category-tag{display:inline-flex;align-items:center;gap:0.5rem;background:var(--amber);color:var(--navy);font-family:var(--font-head);font-size:0.7rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;padding:0.3rem 0.85rem 0.3rem 0.5rem;border-radius:2px;margin-bottom:0.65rem;}
+    .category-tag .ses-icon{width:22px;height:22px;background:rgba(50,61,65,0.15);}
+    .category-tag .ses-icon svg{width:12px;height:12px;}
+    .hero h1{font-family:var(--font-head);font-size:clamp(2.2rem,5vw,3.4rem);font-weight:700;color:var(--white);line-height:1.05;letter-spacing:0.02em;text-transform:uppercase;}
+    .hero-tagline{color:rgba(255,255,255,0.82);font-size:1rem;font-weight:300;font-style:italic;margin-top:0.45rem;}
+    .quick-bar{background:var(--navy);border-top:3px solid var(--amber);}
+    .quick-bar-inner{max-width:var(--max-width);margin:0 auto;padding:0 2rem;display:flex;flex-wrap:wrap;}
+    .quick-item{display:flex;align-items:center;gap:0.6rem;padding:0.9rem 1.5rem 0.9rem 0;margin-right:1.5rem;font-size:0.85rem;color:rgba(255,255,255,0.9);border-right:1px solid rgba(255,255,255,0.12);}
+    .quick-item:last-child{border-right:none;}
+    .quick-item strong{font-weight:600;color:var(--white);}
+    .main-wrapper{max-width:var(--max-width);margin:0 auto;padding:3rem 2rem;display:grid;grid-template-columns:1fr 320px;gap:3rem;align-items:start;}
+    section{margin-bottom:2.75rem;}
+    .section-label{font-family:var(--font-head);font-size:0.68rem;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--slate);margin-bottom:0.35rem;display:flex;align-items:center;gap:0.4rem;}
+    .section-label::after{content:'';display:inline-block;width:24px;height:1px;background:var(--slate);opacity:0.5;}
+    .section-title{font-family:var(--font-head);font-size:1.75rem;font-weight:600;color:var(--navy);margin-bottom:0.85rem;letter-spacing:0.02em;text-transform:uppercase;border-bottom:2px solid var(--amber);padding-bottom:0.5rem;display:inline-block;}
+    p{margin-bottom:1rem;color:#3a4f54;font-size:0.95rem;}
+    .story-section{background:var(--navy);border-radius:8px;padding:2rem 2.25rem;margin-bottom:2.75rem;position:relative;overflow:hidden;}
+    .story-section::before{content:'\201C';position:absolute;top:0.5rem;right:1.5rem;font-size:7rem;color:rgba(238,175,112,0.1);line-height:1;font-family:Georgia,serif;pointer-events:none;}
+    .story-label{font-family:var(--font-head);font-size:0.68rem;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--amber);margin-bottom:0.5rem;display:flex;align-items:center;gap:0.6rem;}
+    .story-title{font-family:var(--font-head);font-size:1.4rem;font-weight:600;color:var(--white);text-transform:uppercase;letter-spacing:0.03em;margin-bottom:1.1rem;}
+    .story-body{font-size:0.97rem;font-style:italic;font-weight:300;line-height:1.85;border-left:3px solid var(--amber);padding-left:1.25rem;}
+    .story-body p{color:rgba(255,255,255,0.82);margin-bottom:0.85rem;}
+    .story-body p:last-child{margin-bottom:0;}
+    .story-attribution{margin-top:1.1rem;padding-top:0.85rem;border-top:1px solid rgba(255,255,255,0.1);font-size:0.82rem;color:var(--amber);font-weight:500;font-style:normal;display:flex;align-items:center;gap:0.6rem;}
+    .highlights{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:1rem;margin-top:0.85rem;}
+    .highlight-card{background:var(--white);border:1px solid var(--border);border-top:3px solid var(--amber);padding:1.1rem 1.15rem;border-radius:4px;}
+    .highlight-card h4{font-family:var(--font-head);font-size:0.88rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;margin:0.65rem 0 0.3rem;color:var(--navy);}
+    .highlight-card p{font-size:0.82rem;color:var(--muted);margin:0;}
+    .beer-list{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.75rem;}
+    .beer-list li{background:var(--white);border:1px solid var(--border);border-left:4px solid var(--slate);padding:0.7rem 1rem;border-radius:3px;font-size:0.88rem;}
+    .beer-list li strong{display:block;color:var(--navy);font-family:var(--font-head);letter-spacing:0.03em;font-size:0.92rem;margin-bottom:0.1rem;}
+    .beer-list li span{color:var(--muted);font-size:0.8rem;}
+    .note-badge{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(238,175,112,0.12);border:1px solid rgba(238,175,112,0.4);color:#7a5a30;font-size:0.78rem;padding:0.35rem 0.7rem;border-radius:3px;margin-top:0.75rem;}
+    .weck-card{background:var(--navy);border-radius:6px;padding:1.75rem 2rem;margin-top:0.85rem;display:flex;gap:1.5rem;align-items:flex-start;}
+    .weck-card-text h4{font-family:var(--font-head);font-size:1.2rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--amber);margin-bottom:0.5rem;}
+    .weck-card-text p{font-size:0.88rem;color:rgba(255,255,255,0.75);margin:0;line-height:1.7;}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;margin-top:0.75rem;}
+    .gallery-item{overflow:hidden;border-radius:4px;}
+    .gallery-item img{width:100%;height:165px;object-fit:cover;display:block;transition:transform 0.3s ease;}
+    .gallery-item:hover img{transform:scale(1.04);}
+    .gallery-note{font-size:0.8rem;color:var(--muted);margin-top:0.5rem;font-style:italic;display:flex;align-items:center;gap:0.4rem;}
+    .tips-list{list-style:none;margin-top:0.75rem;}
+    .tips-list li{display:flex;gap:0.75rem;margin-bottom:0.7rem;font-size:0.92rem;color:#3a4f54;align-items:flex-start;}
+    .tips-list li .ses-icon{margin-top:0.1rem;}
+    .sidebar{position:sticky;top:2rem;}
+    .sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:1.5rem;box-shadow:0 1px 4px rgba(50,61,65,0.07);}
+    .sidebar-card-header{background:var(--navy);color:var(--white);padding:0.75rem 1.15rem;font-family:var(--font-head);font-size:0.75rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;display:flex;align-items:center;gap:0.6rem;}
+    .sidebar-card-body{padding:1.15rem;}
+    .info-row{display:flex;gap:0.65rem;margin-bottom:0.9rem;font-size:0.88rem;align-items:flex-start;}
+    .info-row:last-child{margin-bottom:0;}
+    .info-row .label{font-family:var(--font-head);font-weight:600;display:block;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.15rem;}
+    .info-row a{color:var(--slate);text-decoration:none;font-weight:500;}
+    .info-row a:hover{color:var(--navy);text-decoration:underline;}
+    .divider{border:none;border-top:1px solid var(--border);margin:1rem 0;}
+    .hours-sub-head{font-family:var(--font-head);font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin:0.85rem 0 0.4rem;display:block;}
+    .hours-table{width:100%;font-size:0.83rem;border-collapse:collapse;}
+    .hours-table tr td{padding:0.3rem 0;}
+    .hours-table tr td:first-child{color:var(--muted);}
+    .hours-table tr td:last-child{text-align:right;font-weight:600;color:var(--navy);}
+    .hours-table .closed{color:var(--muted);font-style:italic;font-weight:400;}
+    .cta-btn{display:flex;align-items:center;justify-content:center;gap:0.6rem;background:var(--amber);color:var(--navy);font-family:var(--font-head);font-weight:700;font-size:0.82rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.8rem 1rem;border-radius:4px;text-decoration:none;margin-top:1rem;transition:background 0.2s,transform 0.1s;}
+    .cta-btn:hover{background:#e09e58;transform:translateY(-1px);}
+    .social-links{display:flex;gap:0.5rem;margin-top:0.75rem;}
+    .social-links a{flex:1;text-align:center;background:var(--cream);border:1px solid var(--border);border-radius:4px;padding:0.5rem;font-family:var(--font-head);font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;font-weight:600;color:var(--navy);text-decoration:none;display:flex;align-items:center;justify-content:center;gap:0.4rem;transition:background 0.15s;}
+    .social-links a:hover{background:var(--border);}
+    .map-wrap iframe{width:100%;height:185px;border:none;display:block;}
+    .map-note{padding:0.7rem 1.15rem;font-size:0.8rem;color:var(--muted);display:flex;align-items:center;gap:0.5rem;}
+    .nearby-item{display:flex;gap:0.75rem;margin-bottom:0.8rem;align-items:flex-start;}
+    .nearby-item:last-child{margin-bottom:0;}
+    .nearby-item strong{display:block;font-size:0.88rem;color:var(--navy);font-weight:600;}
+    .nearby-item span{font-size:0.78rem;color:var(--muted);}
+    .events-strip{background:var(--navy);color:var(--white);margin-top:2rem;}
+    .events-inner{max-width:var(--max-width);margin:0 auto;padding:2.5rem 2rem;}
+    .events-inner .section-label{color:var(--amber);}
+    .events-inner .section-label::after{background:var(--amber);}
+    .events-inner .section-title{color:var(--white);border-bottom-color:var(--amber);}
+    .events-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;margin-top:1.1rem;}
+    .event-card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-top:2px solid var(--amber);border-radius:5px;padding:1.1rem 1.2rem;}
+    .event-date{font-family:var(--font-head);font-size:0.68rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--amber);margin-bottom:0.35rem;display:flex;align-items:center;gap:0.45rem;}
+    .event-card h4{font-family:var(--font-head);font-size:0.95rem;font-weight:600;text-transform:uppercase;letter-spacing:0.03em;margin-bottom:0.4rem;color:var(--white);}
+    .event-card p{font-size:0.82rem;color:rgba(255,255,255,0.62);margin:0;line-height:1.55;}
+    .event-recurring{display:inline-flex;align-items:center;gap:0.35rem;font-size:0.68rem;background:rgba(238,175,112,0.18);color:var(--amber);border-radius:2px;padding:0.18rem 0.5rem;margin-top:0.5rem;font-family:var(--font-head);letter-spacing:0.08em;text-transform:uppercase;}
+    .events-more{font-size:0.82rem;color:rgba(255,255,255,0.45);margin-top:1.25rem;display:flex;align-items:center;gap:0.45rem;}
+    .events-more a{color:var(--amber);text-decoration:none;}
+    .page-footer{background:#212b2e;color:rgba(255,255,255,0.45);text-align:center;font-size:0.78rem;padding:1.5rem 1rem;}
+    .page-footer strong{color:rgba(255,255,255,0.8);}
+    .page-footer a{color:var(--amber);text-decoration:none;}
+    @media(max-width:768px){
+      .main-wrapper{grid-template-columns:1fr;}
+      .sidebar{position:static;}
+      .beer-list{grid-template-columns:1fr;}
+      .gallery{grid-template-columns:repeat(2,1fr);}
+      .quick-bar-inner{flex-direction:column;padding:0.75rem 2rem;}
+      .quick-item{border-right:none;border-bottom:1px solid rgba(255,255,255,0.08);padding:0.6rem 0;margin:0;}
+      .quick-item:last-child{border-bottom:none;}
+      .hero-content{flex-direction:column;align-items:flex-start;gap:0.75rem;}
+      .highlights{grid-template-columns:1fr 1fr;}
+      .weck-card{flex-direction:column;}
+    }
+  </style>
+  <svg style="display:none" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="icon-brewery" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="10" width="13" height="12" rx="1"/><path d="M15 12 Q21 12 21 16 Q21 20 15 20"/><circle cx="5" cy="10" r="2.2" fill="white" stroke="#1e2729" stroke-width="1.4"/><circle cx="9" cy="9" r="2.5" fill="white" stroke="#1e2729" stroke-width="1.4"/><circle cx="13" cy="10" r="2.2" fill="white" stroke="#1e2729" stroke-width="1.4"/></symbol>
+    <symbol id="icon-winery" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l-1.5 7a4 4 0 0 1-5 0L8 3z"/><line x1="12" y1="14" x2="12" y2="20"/><line x1="8" y1="20" x2="16" y2="20"/></symbol>
+    <symbol id="icon-restaurant" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="3" x2="8" y2="21"/><path d="M6 3v6a3 3 0 0 0 4 0V3"/><line x1="16" y1="3" x2="16" y2="21"/></symbol>
+    <symbol id="icon-dog" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6c0-1.7 1.3-3 3-3h2l1 2h1a1 1 0 0 1 1 1v2l-2 1v2"/><path d="M16 11c0 3-2 6-5 7H8a2 2 0 0 1-2-2v-2l-1-3 2-1 1 2h2l1-1"/><path d="M8 14v4"/><path d="M12 14v4"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12,7 12,12 15.5,14"/></symbol>
+    <symbol id="icon-car" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11l1.5-4.5h11L19 11"/><rect x="3" y="11" width="18" height="7" rx="2"/><circle cx="7.5" cy="18" r="1.5" fill="#1e2729"/><circle cx="16.5" cy="18" r="1.5" fill="#1e2729"/></symbol>
+    <symbol id="icon-music" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2H7a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9z"/></symbol>
+    <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="icon-envelope" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></symbol>
+    <symbol id="icon-map" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="3,6 9,3 15,6 21,3 21,18 15,21 9,18 3,21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="#1e2729" stroke="none"/></symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+    <symbol id="icon-compass" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="16.24,7.76 14.12,14.12 7.76,16.24 9.88,9.88" fill="#1e2729" stroke="none"/></symbol>
+    <symbol id="icon-tree" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l5 8H7l5-8z"/><path d="M12 10l5.5 8H6.5l5.5-8z"/><line x1="12" y1="18" x2="12" y2="22"/></symbol>
+    <symbol id="icon-warning" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.3L2 20h20L13.7 3.3a2 2 0 0 0-3.4 0z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="17" r="0.5" fill="#1e2729"/></symbol>
+    <symbol id="icon-pen" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.8 2.8 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></symbol>
+    <symbol id="icon-leaf" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13C4 9 7 5 11 3c0 4 3 7 7 8a7 7 0 0 1-7 9z"/><path d="M11 20L8 13"/></symbol>
+    <symbol id="icon-image" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21,15 16,10 5,21"/></symbol>
+    <symbol id="icon-calendar-x" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="9" y1="15" x2="15" y2="21"/><line x1="15" y1="15" x2="9" y2="21"/></symbol>
+    <symbol id="icon-repeat" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="17,1 21,5 17,9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7,23 3,19 7,15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></symbol>
+    <symbol id="icon-link" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+    <symbol id="icon-signature" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17c3-2 5-5 7-9s4-6 6-3-2 8-1 10 4-2 6-4"/><line x1="3" y1="21" x2="21" y2="21"/></symbol>
+    <symbol id="icon-hike" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="4" r="2"/><path d="M10 7l-3 5h4l-2 6 5-3"/><path d="M14 16l2 5"/><path d="M9 12l-2 7"/></symbol>
+    <symbol id="icon-clipboard" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4a2 2 0 0 1 4 0"/><line x1="9" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="13" y2="14"/></symbol>
+    <symbol id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.22" y1="4.22" x2="7.05" y2="7.05"/><line x1="16.95" y1="16.95" x2="19.78" y2="19.78"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.22" y1="19.78" x2="7.05" y2="16.95"/><line x1="16.95" y1="7.05" x2="19.78" y2="4.22"/></symbol>
+    <symbol id="icon-gift" viewBox="0 0 24 24" fill="none" stroke="#1e2729" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="4" rx="1"/><rect x="4" y="12" width="16" height="9" rx="1"/><line x1="12" y1="8" x2="12" y2="21"/><path d="M12 8C12 8 9 5 9 3.5a3 3 0 0 1 3 2.5z"/><path d="M12 8C12 8 15 5 15 3.5a3 3 0 0 0-3 2.5z"/></symbol>
+  </defs></svg>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="hero-content">
+      <img class="hero-logo"
+        src="https://images.squarespace-cdn.com/content/v1/5d84e3e3b29b963cc74972df/1571418512246-OLYZLTDHA71PMFBVY6W1/logo-no-background.png?format=200w"
+        alt="Two Goats Brewing logo" onerror="this.style.display='none'" />
+      <div class="hero-text">
+        <div class="category-tag">
+          <span class="ses-icon" style="width:22px;height:22px;background:rgba(50,61,65,0.18);">
+            <svg style="width:13px;height:13px;"><use href="#icon-brewery"/></svg>
+          </span>
+          Brewery · South East Seneca
+        </div>
+        <h1>Two Goats Brewing</h1>
+        <p class="hero-tagline">Good beer. Good beef. Good people. — A solar-powered brewpub with epic Seneca Lake views.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="quick-bar">
+    <div class="quick-bar-inner">
+      <div class="quick-item"><span class="ses-icon ses-icon-sm"><svg><use href="#icon-pin"/></svg></span>Burdett, NY</div>
+      <div class="quick-item"><span class="ses-icon ses-icon-sm"><svg><use href="#icon-clock"/></svg></span>Open 7 Days</div>
+      <div class="quick-item"><span class="ses-icon ses-icon-sm"><svg><use href="#icon-car"/></svg></span><strong>~6 miles</strong>&nbsp;from Watkins Glen</div>
+      <div class="quick-item"><span class="ses-icon ses-icon-sm"><svg><use href="#icon-sun"/></svg></span>75% Solar Powered</div>
+      <div class="quick-item"><span class="ses-icon ses-icon-sm"><svg><use href="#icon-music"/></svg></span>Live Music Thu–Sun</div>
+      <div class="quick-item"><span class="ses-icon ses-icon-sm"><svg><use href="#icon-dog"/></svg></span>Dog &amp; Family Friendly</div>
+    </div>
+  </div>
+
+  <div class="main-wrapper">
+    <main>
+
+      <section id="about">
+        <p class="section-label">About</p>
+        <h2 class="section-title">Two Goats Brewing</h2>
+        <p>Tucked into a renovated 19th century barn on the hillside above Seneca Lake, Two Goats Brewing has been one of the Finger Lakes' most beloved neighborhood brewpubs since opening in 2010. It's a small, locally-owned, created-from-scratch kind of place — and you feel that the moment you walk in.</p>
+        <p>The deck is where you want to be. Sweeping west-facing views of Seneca Lake, colorful goat-head tap handles, great beer in your hand, and live music drifting across the patio Thursday through Sunday. Two Goats keeps it simple and does it right — craft beer brewed in-house, local FLX wine and cider, and one legendary sandwich.</p>
+        <p>Oh, and they run 75% on solar power — because doing right goes beyond what's in the glass.</p>
+      </section>
+
+      <div class="story-section" id="our-story">
+        <p class="story-label">
+          <span class="ses-icon" style="width:24px;height:24px;background:rgba(238,175,112,0.2);">
+            <svg style="width:13px;height:13px;"><use href="#icon-pen" style="stroke:var(--amber)"/></svg>
+          </span>
+          In Our Words
+        </p>
+        <h3 class="story-title">Our Story</h3>
+        <div class="story-body">
+          <p>Two Goats is one of those places that's impossible to explain until you've sat on that deck at golden hour with a pint in your hand and Seneca Lake stretched out in front of you. It just clicks. The beer is excellent, the vibe is completely unpretentious, and the live music gives it an energy that's hard to find anywhere else on the lake.</p>
+          <p>Get the beef-on-weck. It's the only sandwich they serve, and there's a very good reason for that — it doesn't need competition. House-made rolls, locally-raised beef, and every bit as good as the view. Two Goats is a Finger Lakes original, and it never gets old.</p>
+        </div>
+        <p class="story-attribution">
+          <span class="ses-icon" style="width:22px;height:22px;background:rgba(238,175,112,0.15);">
+            <svg style="width:12px;height:12px;"><use href="#icon-signature" style="stroke:var(--amber)"/></svg>
+          </span>
+          — South East Seneca
+        </p>
+      </div>
+
+      <section id="highlights">
+        <p class="section-label">Why Visit</p>
+        <h2 class="section-title">What to Expect</h2>
+        <div class="highlights">
+          <div class="highlight-card"><span class="ses-icon ses-icon-md"><svg><use href="#icon-brewery"/></svg></span><h4>Craft Beer on Draft</h4><p>Flights, pints, cans, and growlers — all brewed in-house with locally sourced ingredients.</p></div>
+          <div class="highlight-card"><span class="ses-icon ses-icon-md"><svg><use href="#icon-pin"/></svg></span><h4>Epic Lake Views</h4><p>West-facing deck overlooking Seneca Lake — one of the best sunset spots in the entire region.</p></div>
+          <div class="highlight-card"><span class="ses-icon ses-icon-md"><svg><use href="#icon-music"/></svg></span><h4>Live Music Thu–Sun</h4><p>Original live music on the back deck Thursday through Sunday throughout the season.</p></div>
+          <div class="highlight-card"><span class="ses-icon ses-icon-md"><svg><use href="#icon-restaurant"/></svg></span><h4>Beef-on-Weck</h4><p>One legendary sandwich. House-made rolls, locally-raised beef. Served until 30 min before close.</p></div>
+          <div class="highlight-card"><span class="ses-icon ses-icon-md"><svg><use href="#icon-sun"/></svg></span><h4>75% Solar Powered</h4><p>One of the most eco-conscious breweries in the Finger Lakes — doing right beyond the glass.</p></div>
+          <div class="highlight-card"><span class="ses-icon ses-icon-md"><svg><use href="#icon-dog"/></svg></span><h4>Dog &amp; Family Friendly</h4><p>Kids and well-behaved dogs welcome. Friendly, library-voiced pups preferred on the patio.</p></div>
+        </div>
+      </section>
+
+      <section id="menu">
+        <p class="section-label">Craft Beer</p>
+        <h2 class="section-title">What's on Tap</h2>
+        <p>Two Goats brews all their own beer on-site with rotating seasonal styles. Flights and pints available at the bar, plus cans and growlers to go. FLX wine, cider, and soft drinks always on hand too.</p>
+        <ul class="beer-list">
+          <li><strong>Rotating Lager</strong><span>Clean, crisp, and approachable — a house staple year-round</span></li>
+          <li><strong>Hefeweizen</strong><span>Wheat Ale · Hazy, fruity, and a perennial crowd favorite</span></li>
+          <li><strong>Brown Ale</strong><span>Malty and smooth — perfect for cooler evenings on the deck</span></li>
+          <li><strong>Seasonal Rotation</strong><span>The lineup shifts with the season — ask your bartender what's fresh</span></li>
+          <li><strong>FLX Wine &amp; Cider</strong><span>Locally sourced Finger Lakes wine and cider always available</span></li>
+          <li><strong>Cans &amp; Growlers To Go</strong><span>Take Two Goats home — ask at the bar for current to-go options</span></li>
+        </ul>
+        <p class="note-badge">
+          <span class="ses-icon" style="width:20px;height:20px;background:rgba(238,175,112,0.3);"><svg style="width:11px;height:11px;"><use href="#icon-warning"/></svg></span>
+          Tap list rotates — follow @twogoatsbrewing on Instagram for current selections.
+        </p>
+      </section>
+
+      <section id="food">
+        <p class="section-label">The Food</p>
+        <h2 class="section-title">One Sandwich. Done Right.</h2>
+        <p>Two Goats keeps it simple on the food menu — and that's the whole point. They do one thing and they nail it every time.</p>
+        <div class="weck-card">
+          <span class="ses-icon" style="width:48px;height:48px;flex-shrink:0;"><svg style="width:24px;height:24px;"><use href="#icon-restaurant"/></svg></span>
+          <div class="weck-card-text">
+            <h4>Beef-on-Weck ★</h4>
+            <p>A Western New York classic done the Two Goats way. House-made kimmelweck rolls, locally-raised beef, served until 30 minutes before close. A hummus sandwich is also available. That's the menu — and it's all you need.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <p class="section-label">Gallery</p>
+        <h2 class="section-title">Photos</h2>
+        <div class="gallery">
+          <div class="gallery-item"><img src="Hero.jpeg" alt="Two Goats Brewing at sunset with Seneca Lake views" loading="lazy" /></div>
+          <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/5d84e3e3b29b963cc74972df/1579272952183-5RQ7RAPV1HXXPWX6M6TC/image-asset.jpeg" alt="Two Goats Brewing beef-on-weck sandwich" loading="lazy" /></div>
+          <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/5d84e3e3b29b963cc74972df/1571418512246-OLYZLTDHA71PMFBVY6W1/logo-no-background.png" alt="Two Goats Brewing logo" loading="lazy" style="object-fit:contain;background:#323d41;padding:30px;" /></div>
+        </div>
+        <p class="gallery-note">
+          <span class="ses-icon" style="width:20px;height:20px;"><svg style="width:11px;height:11px;"><use href="#icon-image"/></svg></span>
+          Photos · Two Goats Brewing, Burdett NY
+        </p>
+      </section>
+
+      <section id="tips">
+        <p class="section-label">Plan Your Visit</p>
+        <h2 class="section-title">Tips for Visitors</h2>
+        <ul class="tips-list">
+          <li><span class="ses-icon ses-icon-sm"><svg><use href="#icon-music"/></svg></span>Live music runs Thursday through Sunday — Fri &amp; Sat 6–9 PM, Sun 4–7 PM.</li>
+          <li><span class="ses-icon ses-icon-sm"><svg><use href="#icon-restaurant"/></svg></span>Beef-on-weck is served until 30 minutes before close — don't wait too long.</li>
+          <li><span class="ses-icon ses-icon-sm"><svg><use href="#icon-calendar-x"/></svg></span>Walk-in groups max 8 people. No groups after 5 PM on weekends or holiday weekend Sat/Sun.</li>
+          <li><span class="ses-icon ses-icon-sm"><svg><use href="#icon-dog"/></svg></span>Dogs welcome outside — friendly and leashed, equal number of humans to dogs required.</li>
+          <li><span class="ses-icon ses-icon-sm"><svg><use href="#icon-gift"/></svg></span>Grab cans or a growler to go — great way to take a taste of the lake home with you.</li>
+          <li><span class="ses-icon ses-icon-sm"><svg><use href="#icon-pin"/></svg></span>The driveway off Route 414 is easy to miss — watch for the sign and slow down.</li>
+          <li><span class="ses-icon ses-icon-sm"><svg><use href="#icon-instagram"/></svg></span>Follow @twogoatsbrewing on Instagram for the music schedule and beer updates.</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <aside class="sidebar">
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-header">
+          <span class="ses-icon" style="width:22px;height:22px;"><svg style="width:12px;height:12px;"><use href="#icon-clipboard"/></svg></span>
+          Plan Your Visit
+        </div>
+        <div class="sidebar-card-body">
+          <div class="info-row">
+            <span class="ses-icon ses-icon-sm"><svg><use href="#icon-pin"/></svg></span>
+            <div><span class="label">Address</span>5027 State Route 414<br />Burdett, NY 14818</div>
+          </div>
+          <div class="info-row">
+            <span class="ses-icon ses-icon-sm"><svg><use href="#icon-phone"/></svg></span>
+            <div><span class="label">Phone</span><a href="tel:+16075462337">(607) 546-2337</a></div>
+          </div>
+          <div class="info-row">
+            <span class="ses-icon ses-icon-sm"><svg><use href="#icon-globe"/></svg></span>
+            <div><span class="label">Website</span><a href="https://twogoatsbrewing.com" target="_blank" rel="noopener">twogoatsbrewing.com</a></div>
+          </div>
+          <hr class="divider" />
+          <span class="hours-sub-head">Hours (May–Season)</span>
+          <table class="hours-table">
+            <tr><td>Mon – Thu</td><td>12:00 – 8:00 PM</td></tr>
+            <tr><td>Fri – Sat</td><td>12:00 – 10:00 PM</td></tr>
+            <tr><td>Sunday</td><td>12:00 – 8:00 PM</td></tr>
+          </table>
+          <span class="hours-sub-head">Live Music</span>
+          <table class="hours-table">
+            <tr><td>Thu</td><td>Seasonal</td></tr>
+            <tr><td>Fri – Sat</td><td>6:00 – 9:00 PM</td></tr>
+            <tr><td>Sunday</td><td>4:00 – 7:00 PM</td></tr>
+          </table>
+          <a class="cta-btn" href="https://maps.google.com/?q=5027+State+Route+414+Burdett+NY+14818" target="_blank" rel="noopener">
+            <span class="ses-icon" style="width:20px;height:20px;background:rgba(50,61,65,0.15);"><svg style="width:11px;height:11px;"><use href="#icon-map"/></svg></span>
+            Get Directions
+          </a>
+          <div class="social-links">
+            <a href="https://www.facebook.com/twogoatsbrewing/" target="_blank" rel="noopener">
+              <span class="ses-icon" style="width:20px;height:20px;"><svg style="width:11px;height:11px;"><use href="#icon-facebook"/></svg></span>Facebook
+            </a>
+            <a href="https://www.instagram.com/twogoatsbrewing/" target="_blank" rel="noopener">
+              <span class="ses-icon" style="width:20px;height:20px;"><svg style="width:11px;height:11px;"><use href="#icon-instagram"/></svg></span>Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-header">
+          <span class="ses-icon" style="width:22px;height:22px;"><svg style="width:12px;height:12px;"><use href="#icon-pin"/></svg></span>
+          Location
+        </div>
+        <div class="map-wrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.0!2d-76.86989!3d42.47668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d08b1234567890%3A0x1!2s5027+State+Route+414%2C+Burdett%2C+NY+14818!5e0!3m2!1sen!2sus!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Two Goats Brewing map"></iframe>
+        </div>
+        <div class="map-note">
+          <span class="ses-icon" style="width:20px;height:20px;"><svg style="width:11px;height:11px;"><use href="#icon-map"/></svg></span>
+          ~6 miles north of Watkins Glen · Route 414, Burdett NY
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-header">
+          <span class="ses-icon" style="width:22px;height:22px;"><svg style="width:12px;height:12px;"><use href="#icon-compass"/></svg></span>
+          Nearby Attractions
+        </div>
+        <div class="sidebar-card-body">
+          <div class="nearby-item">
+            <span class="ses-icon ses-icon-md"><svg><use href="#icon-hike"/></svg></span>
+            <div><strong>Watkins Glen State Park</strong><span>~6 miles south · World-famous gorge trail with 19 waterfalls</span></div>
+          </div>
+          <div class="nearby-item">
+            <span class="ses-icon ses-icon-md"><svg><use href="#icon-winery"/></svg></span>
+            <div><strong>Seneca Lake Wine Trail</strong><span>Acclaimed wineries along Route 414 in every direction</span></div>
+          </div>
+          <div class="nearby-item">
+            <span class="ses-icon ses-icon-md"><svg><use href="#icon-tree"/></svg></span>
+            <div><strong>Finger Lakes National Forest</strong><span>Minutes away · Hiking, open meadows, panoramic ridge views</span></div>
+          </div>
+          <div class="nearby-item">
+            <span class="ses-icon ses-icon-md"><svg><use href="#icon-brewery"/></svg></span>
+            <div><strong>Grist Iron Brewing</strong><span>Just down Route 414 · 150-acre brewery with lodge and disc golf</span></div>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+  </div>
+
+  <div class="events-strip">
+    <div class="events-inner">
+      <p class="section-label">What's On</p>
+      <h2 class="section-title">Live Music &amp; Events</h2>
+      <div class="events-grid">
+        <div class="event-card">
+          <p class="event-date"><span class="ses-icon" style="width:18px;height:18px;"><svg style="width:10px;height:10px;"><use href="#icon-calendar"/></svg></span>Fri &amp; Sat · 6–9 PM</p>
+          <h4>Weekend Live Music</h4>
+          <p>Original live music on the back deck every Friday and Saturday evening throughout the season.</p>
+          <span class="event-recurring"><span class="ses-icon" style="width:14px;height:14px;"><svg style="width:8px;height:8px;"><use href="#icon-repeat"/></svg></span>Weekly</span>
+        </div>
+        <div class="event-card">
+          <p class="event-date"><span class="ses-icon" style="width:18px;height:18px;"><svg style="width:10px;height:10px;"><use href="#icon-calendar"/></svg></span>Sunday · 4–7 PM</p>
+          <h4>Sunday Live Music</h4>
+          <p>Wind down the weekend with live music on Sunday afternoons — one of the best ways to close out a Finger Lakes weekend.</p>
+          <span class="event-recurring"><span class="ses-icon" style="width:14px;height:14px;"><svg style="width:8px;height:8px;"><use href="#icon-repeat"/></svg></span>Weekly</span>
+        </div>
+        <div class="event-card">
+          <p class="event-date"><span class="ses-icon" style="width:18px;height:18px;"><svg style="width:10px;height:10px;"><use href="#icon-calendar"/></svg></span>Year-Round</p>
+          <h4>Seasonal Beer Releases</h4>
+          <p>New and rotating brews throughout the year — follow on Instagram to catch limited releases fresh.</p>
+          <span class="event-recurring"><span class="ses-icon" style="width:14px;height:14px;"><svg style="width:8px;height:8px;"><use href="#icon-repeat"/></svg></span>Seasonal</span>
+        </div>
+        <div class="event-card">
+          <p class="event-date"><span class="ses-icon" style="width:18px;height:18px;"><svg style="width:10px;height:10px;"><use href="#icon-calendar"/></svg></span>Year-Round</p>
+          <h4>Festivals &amp; Community Events</h4>
+          <p>Two Goats participates in regional events and hosts special gatherings throughout the year — check their website for what's coming up.</p>
+          <span class="event-recurring"><span class="ses-icon" style="width:14px;height:14px;"><svg style="width:8px;height:8px;"><use href="#icon-repeat"/></svg></span>Year-Round</span>
+        </div>
+      </div>
+      <p class="events-more">
+        <span class="ses-icon" style="width:18px;height:18px;"><svg style="width:10px;height:10px;"><use href="#icon-link"/></svg></span>
+        Full music schedule at <a href="https://twogoatsbrewing.com/music-events" target="_blank">twogoatsbrewing.com/music-events</a>
+      </p>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <p>
+      <strong>Two Goats Brewing</strong> &nbsp;·&nbsp;
+      5027 State Route 414, Burdett, NY 14818 &nbsp;·&nbsp;
+      <a href="tel:+16075462337">(607) 546-2337</a> &nbsp;·&nbsp;
+      Part of <a href="https://southeastseneca.com">South East Seneca</a>
+    </p>
+    <p style="margin-top:0.4rem;">© 2026 South East Seneca Lake Tourism. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
